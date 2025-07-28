@@ -1,0 +1,129 @@
+body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: white;
+      color: #000;
+      text-align: center;
+      padding-top: 80px; /* Отступ, чтобы контент не прилипал к шапке */
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: black;
+      font-weight: 400;
+    }
+
+    nav a:first-child {
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      line-height: 1.2;
+    }
+
+    .illustration {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      margin-top: 60px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .description {
+      margin-top: 10px;
+      font-size: 16px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cards-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+    .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    }
+
+    .card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 280px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .card img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    }
+
+    .programs {
+    text-align: center;
+    padding: 60px 20px;
+    }
+
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1d1d3b;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    }
+
+    .contact {
+    background: #f6f6f6;
+    text-align: center;
+    padding: 60px 20px;
+    }
+
+    footer {
+    background: white;
+    color: #444;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
